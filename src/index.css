@@ -1,5 +1,7 @@
-* {
-  background-color: blue;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
 }
 
 .departures {
