@@ -2,8 +2,8 @@ import Table from './components/Table';
 
 function App() {
   return (
-    <div>
-      <header className="departures">DEPARTURES</header>
+    <div className="departures">
+      <header>DEPARTURES</header>
       <Table />
     </div>
   );

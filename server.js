@@ -7,6 +7,8 @@ require('dotenv').config();
 
 const app = express();
 
+//get rid of CORS/access error
+
 app.get('/flights', (req, res) => {
   const options = {
     url: `${process.env.URL}?page-size=6`,

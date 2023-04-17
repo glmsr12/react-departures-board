@@ -27,8 +27,13 @@ header {
 }
 
 .departures table {
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(85, 83, 83);
   text-align: left;
+  border-radius: 10px;
+}
+
+#time {
+  width: 160px;
 }
 
 #flight {
@@ -39,14 +44,10 @@ header {
   width: 700px;
 }
 
-#time {
-  width: 160px;
-}
-
 #gate {
   width: 135px;
 }
 
 #remarks {
-  width: 260px;
+  width: 240px;
 }
