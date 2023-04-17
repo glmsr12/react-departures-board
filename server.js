@@ -8,6 +8,7 @@ require('dotenv').config();
 const app = express();
 
 //get rid of CORS/access error
+app.use(cors());
 
 app.get('/flights', (req, res) => {
   const options = {
