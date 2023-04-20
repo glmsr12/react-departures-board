@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import TableRow from './TableRow';
 
 const TableBody = () => {
   //get data from database
@@ -17,13 +16,7 @@ const TableBody = () => {
 
   console.log(flights);
 
-  return (
-    <tbody>
-      {flights?.map((flight, _index) => (
-        <TableRow></TableRow>
-      ))}
-    </tbody>
-  );
+  return <tbody></tbody>;
 };
 
 export default TableBody;

@@ -1,7 +1,8 @@
 import React from 'react';
 
-const TableRow = () => {
-  return <div></div>;
+const TableRow = ({ flight }) => {
+  console.log();
+  return <></>;
 };
 
 export default TableRow;
