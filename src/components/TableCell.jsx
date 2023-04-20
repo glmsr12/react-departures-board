@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import TableLetter from './TableLetter';
 
 function TableCell({ word, index }) {
   const [flip, setFlip] = useState(false);
@@ -10,8 +11,8 @@ function TableCell({ word, index }) {
 
   return (
     <td>
-      {Array.from(word).map((letter, _index) => (
-        <div className={flip ? 'flip' : null}>{flip ? letter : ''}</div>
+      {Array.from(word).map((letter, index) => (
+        <TableLetter key={index} letter={letter} index={index} />
       ))}
     </td>
   );
