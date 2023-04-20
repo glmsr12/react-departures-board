@@ -1,3 +1,15 @@
+#100daysofproject77
+
+In this project I built an airport flight status board by using React with backend using Node.js to communicate with Datastax Astra DB database, built on Apache Cassandra.
+
+
+
+
+
+<img width="1654" alt="Screenshot 2023-04-20 at 3 11 09 AM" src="https://user-images.githubusercontent.com/91402082/233339124-9f9604c6-fde7-404e-95da-c15b3935a4ea.png">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
