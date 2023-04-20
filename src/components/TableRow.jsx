@@ -1,8 +1,14 @@
 import React from 'react';
 
 const TableRow = ({ flight }) => {
-  console.log();
-  return <></>;
+  return (
+    <tr>
+      <td>
+        <img src="../assets/plane.png" alt="Icon" />
+      </td>
+      <td></td>
+    </tr>
+  );
 };
 
 export default TableRow;
