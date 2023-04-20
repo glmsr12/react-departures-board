@@ -32,6 +32,14 @@ header {
   border-radius: 17px;
 }
 
+.departures table div {
+  border: solid 4px rgb(26, 26, 26);
+  background-color: black;
+  min-width: 20px;
+  height: 40px;
+  float: left;
+}
+
 #time {
   width: 160px;
 }
@@ -50,4 +58,20 @@ header {
 
 #remarks {
   width: 240px;
+}
+
+.flip {
+  animation: 0.5s linear flipping;
+}
+
+@keyframes flipping {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
 }
